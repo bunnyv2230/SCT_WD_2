@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch with Clock BG</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="clock">
+        <div class="center-dot"></div>
+        <div class="hand hour" data-hour-hand></div>
+        <div class="hand minute" data-minute-hand></div>
+        <div class="hand second" data-second-hand></div>
+        <div class="number number-1"><span>1</span></div>
+        <div class="number number-2"><span>2</span></div>
+        <div class="number number-3"><span>3</span></div>
+        <div class="number number-4"><span>4</span></div>
+        <div class="number number-5"><span>5</span></div>
+        <div class="number number-6"><span>6</span></div>
+        <div class="number number-7"><span>7</span></div>
+        <div class="number number-8"><span>8</span></div>
+        <div class="number number-9"><span>9</span></div>
+        <div class="number number-10"><span>10</span></div>
+        <div class="number number-11"><span>11</span></div>
+        <div class="number number-12"><span>12</span></div>
+    </div>
+    <div class="stopwatch-container">
+        <div id="display" class="display">
+            00:00:00
+        </div>
+        <div class="controls">
+            <button id="startBtn">Start</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="resetBtn">Reset</button>
+            <button id="lapBtn">Lap</button>
+        </div>
+        <ol id="lapsList" class="laps-list"></ol>
+    </div>
+    <script src="script.js"></script> <script src="clock.js"></script>   </body>
+</html>
